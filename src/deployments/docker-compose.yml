@@ -82,7 +82,7 @@ services:
       context: pq-gateway
       dockerfile: Dockerfile
     ports:
-      - $GATEWAY_PORT:8000
+      - '${GATEWAY_PORT}:8000'
     depends_on:
       - pq-toolkit-api-dev
       - pq-toolkit-ui-dev
