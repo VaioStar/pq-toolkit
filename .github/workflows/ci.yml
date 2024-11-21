@@ -109,8 +109,8 @@ jobs:
             mkdocs-material-
 
       - run: |
-        pip install -r $DOCS_REQ
-        pip install --upgrade pip  
+         pip install -r $DOCS_REQ
+         pip install --upgrade pip  
       - name: Build documentation
         run: mkdocs build --config-file $MKDOCS_CONFIG
 
