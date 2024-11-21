@@ -10,6 +10,7 @@ on:
 
 env:
   MKDOCS_CONFIG: docs/mkdocs.yml
+  DOCS_REQ: docs/python-docs-requirements.txt
 
 jobs:
   # Job 1: Budowanie obrazów Docker
@@ -108,7 +109,7 @@ jobs:
             mkdocs-material-
 
       - run: |
-         pip install -r python-docs-requirements.txt
+         pip install -r $DOCS_REQ
 
       - name: Build documentation
         run: mkdocs build
