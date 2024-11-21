@@ -95,7 +95,8 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: 3.x
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
@@ -105,5 +106,11 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material 
+
+      - run: |
+         pip install -r python-docs-requirements.txt
+
+      - name: Build documentation
+        run: mkdocs build
+
       - run: mkdocs gh-deploy --config-file $MKDOCS_CONFIG --force
