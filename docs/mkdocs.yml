@@ -1,4 +1,5 @@
 site_name: PQ Toolkit
+site_url: https://vaiostar.github.io/pq-toolkit
 dev_addr: '0.0.0.0:8000'
 nav:
   - 'Home': index.md
