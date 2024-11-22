@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://vaiostar.github.io/pq-toolkit/</loc>
+         <lastmod>2024-11-22</lastmod>
+    </url>
+    <url>
+         <loc>https://vaiostar.github.io/pq-toolkit/getting-started/api-client-walkthrough/</loc>
+         <lastmod>2024-11-22</lastmod>
+    </url>
+    <url>
+         <loc>https://vaiostar.github.io/pq-toolkit/getting-started/prerequisites/</loc>
+         <lastmod>2024-11-22</lastmod>
+    </url>
+    <url>
+         <loc>https://vaiostar.github.io/pq-toolkit/reference/PqToolkitAPIClient/</loc>
+         <lastmod>2024-11-22</lastmod>
+    </url>
+    <url>
+         <loc>https://vaiostar.github.io/pq-toolkit/reference/dataclasses/</loc>
+         <lastmod>2024-11-22</lastmod>
+    </url>
+    <url>
+         <loc>https://vaiostar.github.io/pq-toolkit/reference/exceptions/</loc>
+         <lastmod>2024-11-22</lastmod>
+    </url>
+</urlset>
